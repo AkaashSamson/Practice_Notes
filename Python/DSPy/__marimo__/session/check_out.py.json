@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.19.10"
+  },
+  "cells": [
+    {
+      "id": "MJUe",
+      "code_hash": "18a4f9ee81207398c3ee583044b1f240",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "application/vnd.vegalite.v6+json": "{\n  \"$schema\": \"https://vega.github.io/schema/vega-lite/v6.1.0.json\",\n  \"config\": {\n    \"view\": {\n      \"continuousHeight\": 300,\n      \"continuousWidth\": 300\n    }\n  },\n  \"data\": {\n    \"name\": \"data-ecd044052492ad22c7c1af24bf8fc746\"\n  },\n  \"datasets\": {\n    \"data-ecd044052492ad22c7c1af24bf8fc746\": [\n      {\n        \"x\": 1,\n        \"y\": 2\n      },\n      {\n        \"x\": 2,\n        \"y\": 4\n      },\n      {\n        \"x\": 3,\n        \"y\": 1\n      },\n      {\n        \"x\": 4,\n        \"y\": 3\n      },\n      {\n        \"x\": 5,\n        \"y\": 5\n      },\n      {\n        \"x\": 6,\n        \"y\": 9\n      }\n    ]\n  },\n  \"encoding\": {\n    \"tooltip\": [\n      {\n        \"field\": \"x\",\n        \"type\": \"quantitative\"\n      },\n      {\n        \"field\": \"y\",\n        \"type\": \"quantitative\"\n      }\n    ],\n    \"x\": {\n      \"field\": \"x\",\n      \"type\": \"quantitative\"\n    },\n    \"y\": {\n      \"field\": \"y\",\n      \"type\": \"quantitative\"\n    }\n  },\n  \"mark\": {\n    \"type\": \"circle\"\n  },\n  \"params\": [\n    {\n      \"bind\": \"scales\",\n      \"name\": \"param_1e9efca18e7a2868\",\n      \"select\": {\n        \"encodings\": [\n          \"x\",\n          \"y\"\n        ],\n        \"type\": \"interval\"\n      }\n    }\n  ],\n  \"usermeta\": {\n    \"embedOptions\": {}\n  },\n  \"width\": \"container\"\n}"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "vblA",
+      "code_hash": "1d0db38904205bec4d6f6f6a1f6cec3e",
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
