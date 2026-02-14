@@ -6,5 +6,23 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "ipykernel>=7.1.0",
+    "marimo>=0.19.10",
+    "mcp>=1.26.0",
     "ollama>=0.6.1",
+    "pydantic-ai>=1.58.0",
+]
+
+[dependency-groups]
+dev = [
+    "altair",
+    "duckdb>=1.4.4",
+    "nbformat>=5.10.4",
+    "polars[pyarrow]>=1.38.1",
+    "pytest>=9.0.2",
+    "python-lsp-ruff>=2.3.0",
+    "python-lsp-server>=1.14.0",
+    "sqlglot>=28.10.1",
+    "vegafusion>=2.0.3",
+    "vl-convert-python>=1.9.0.post1",
+    "websockets>=15.0.1",
 ]
